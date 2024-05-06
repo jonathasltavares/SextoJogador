@@ -1,0 +1,71 @@
+<app-header></app-header>
+<div class="container" id="home">
+  <img
+    class="t6banner"
+    src="../assets/images/t6banner.jpeg"
+    alt="logo t6banner"
+  />
+
+  <section class="sobre-section" id="sobre">
+    <h2>SOBRE</h2>
+    <div class="texto-sobre">
+      <p>
+        Somos a <span>Sexto Jogador</span>,<br />
+        torcida organizada da PaiN Gaming, a maior organização de e-sports da
+        America Latina. Fomos fundados no dia 25.08.2023, e desde então nosso
+        comprometimento vai além das telas, estendendo-se aos eventos
+        presenciais.
+      </p>
+      <p>
+        Além disso, buscamos nos envolvemos em ações para contribuir
+        positivamente com a sociedade e com nossa comunidade.
+      </p>
+      <p>
+        Com filiais espalhadas por diversos estados do Brasil, quebramos
+        barreiras geográficas para espalhar a empolgação dos e-sports para além
+        do tradicional eixo Rio-São Paulo.
+      </p>
+    </div>
+  </section>
+  <section class="filiais-section" id="filiais">
+    <h2>FILIAIS</h2>
+    <div class="filiais-container">
+      @for (filial of filiais; track $index) {
+      <app-filial
+        estado="{{ filial.estado }}"
+        logo="{{ filial.logo }}"
+        url="{{ filial.url }}"
+      ></app-filial>
+      } @empty {
+      <p>Carregando...</p>
+      }
+    </div>
+  </section>
+  <section class="redes-sociais-section" id="redes-sociais">
+    <h2>REDES SOCIAIS</h2>
+    <div class="redes-widget">
+      <app-twitter-widget></app-twitter-widget>
+      <app-instagram-widget></app-instagram-widget>
+    </div>
+  </section>
+  <section class="faca-parte-section" id="quero-fazer-parte">
+    <h2>QUERO FAZER PARTE</h2>
+    <ol>
+      <li>Contate sua Filial Local:</li>
+      <p>
+        Se você está empolgado para se envolver com a Sexto Jogador em seu
+        próprio estado, dê uma olhada em nossa lista de filiais pelo Brasil.
+        Encontre a filial mais próxima de você e entre em contato diretamente
+        com eles através do Twitter.
+      </p>
+      <li>Sem Filial em seu Estado? Sem Problemas:</li>
+      <p>
+        Se, por acaso, ainda não temos uma filial em seu estado, não se
+        preocupe! Você pode entrar em contato diretamente conosco pelo nosso
+        perfil geral no Twitter. Estamos sempre abertos a receber novos membros
+        de todas as regiões do Brasil. Sua paixão pelos e-sports é o que nos
+        une, independentemente de onde você esteja!
+      </p>
+    </ol>
+  </section>
+</div>

@@ -1,0 +1,27 @@
+div{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    gap: 10px;
+    width: 70%;
+    font-family: "HighSchoolUSASerif";
+    font-size: 1.5rem;
+    cursor: pointer;
+    transition: all .2s ease-in-out; 
+}
+
+div:hover{
+    transform: scale(1.2); 
+}
+img{
+    border-radius: 50%;
+    width: 100%;
+}
+a{
+    text-decoration: none;
+    color: var(--t6Black);
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
