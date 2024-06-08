@@ -31,11 +31,12 @@
     <h2>FILIAIS</h2>
     <div class="filiais-container">
       @for (filial of filiais; track $index) {
-      <app-filial
+          <app-filial
         estado="{{ filial.estado }}"
         logo="{{ filial.logo }}"
         url="{{ filial.url }}"
       ></app-filial>
+
       } @empty {
       <p>Carregando...</p>
       }

@@ -23,32 +23,37 @@ export class AppComponent {
   filiais = [
     {
       estado: 'Rio de Janeiro',
-      logo: '../assets/images/t6Rj.jpg',
+      logo: 'https://pbs.twimg.com/profile_images/1748014172179165184/skATUcHs_400x400.jpg',
       url: 'https://twitter.com/sextojogador_rj',
     },
     {
       estado: 'Bahia',
-      logo: '../assets/images/t6Br.jpg',
-      url: 'https://twitter.com/sextojogador_BA',
+      logo: 'https://pbs.twimg.com/profile_images/1797739742844407808/4GcN3g1c_400x400.jpg',
+      url: 'https://x.com/SextoJogadorBA',
     },
     {
       estado: 'Minas Gerais',
-      logo: '../assets/images/t6Mg.jpg',
+      logo: 'https://pbs.twimg.com/profile_images/1797738261793640448/bKtI31dk_400x400.jpg',
       url: 'https://twitter.com/sextojogadormg',
     },
     {
       estado: 'Ceará',
-      logo: '../assets/images/t6Ce.jpg',
+      logo: 'https://pbs.twimg.com/profile_images/1750972951040610304/L-97Bbax_400x400.jpg',
       url: 'https://twitter.com/sextojogador_CE',
     },
     {
       estado: 'Pernambuco',
-      logo: '../assets/images/t6Pe.jpg',
+      logo: 'https://pbs.twimg.com/profile_images/1797738888791834624/t_WvO-SD_400x400.jpg',
       url: 'https://twitter.com/sextojogador_pe',
     },
     {
       estado: 'Pará',
-      logo: '../assets/images/t6Br.jpg',
+      logo: 'https://pbs.twimg.com/profile_images/1797780030182875136/CehlSWaJ_400x400.jpg',
+      url: 'https://twitter.com/sextojogador_PA',
+    },
+    {
+      estado: 'São Paulo',
+      logo: 'https://pbs.twimg.com/profile_images/1798458196853407745/PsdFowTP_400x400.jpg',
       url: 'https://twitter.com/sextojogador_PA',
     },
   ];
